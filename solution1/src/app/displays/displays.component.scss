@@ -1,0 +1,29 @@
+.react-block{
+  &.display-block{
+    float: right;
+    ul{
+      li{
+        &:first-child{
+          padding-right: 30px;
+        }
+        .audio-count{
+          p{
+            span{
+              position: absolute;
+              bottom: 20px;
+              font-size: 20px;
+            }
+          }
+        }
+        .total{
+          h3{
+            font-size: 24px;
+            opacity: 0.7;
+            font-weight: 700;
+            margin-top: -3px;
+          }
+        }
+      }
+    }
+  }
+}

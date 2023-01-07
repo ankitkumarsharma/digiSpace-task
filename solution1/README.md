@@ -1,17 +1,7 @@
 # DigiTask
 
-I have created 2 solution for this task, output view will be same for both solution, only code quality method is different.
-
->> Solution 1
->> Solution 2
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
 
-# Demo URL
-
-Please click : https://ankitkumarsharma.github.io/digiSpace-task/
-
-I have attached screenshot also for view
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

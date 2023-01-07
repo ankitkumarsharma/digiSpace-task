@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './assets/scss/fonts.scss';
+@import './assets/scss/colors';
+
+html, body { height: 100%; }
+body { margin: 0; }
+.react-block{
+  background-color: $block-bgc;
+  padding: 15px;
+  border-radius: 14px;
+  min-height: 168px;
+  width: 250px;
+  &.light-audio-block{
+    ul{
+      li{
+        vertical-align: middle;
+        .audio-count{
+          font-size: 66px;
+          font-weight: 700;
+          color: $blue-shades;
+          p{
+            margin: 0px;
+            position: relative;
+            bottom: -20px;
+          }
+        }
+        .green-box{
+          background: $green-shades;
+          padding: 2px 13px;
+          border-radius: 8px;
+          p{
+            margin: 0px;
+            text-transform: uppercase;
+            color: $white;
+          }
+        }
+        .total{
+          padding-top: 53px;
+          h5{
+            color: $gray-shades;
+            font-size: 14px;
+            margin: 0px 0px 4px 0px;
+          }
+        }
+      }
+    }
+  }
+  ul{
+    margin: 0px;
+  }
+  h2 {
+    font-family: Rota-Black;
+    font-size: 24px;
+    opacity: 0.7;
+    margin: 0px;
+  }
+  .count{
+    width: 85px;
+    height: 85px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 90px;
+    margin-top: 5px;
+    color: $white;
+    p{
+      font-size: 50px;
+      font-weight: 700;
+    }
+  }
+  .arrow-count{
+    font-weight: 700;
+    font-size: 36px;
+    color: $gray-shades;
+    &.down{
+      border-top: 1px solid;
+      opacity: 0.9;
+    }
+  }
+}
+

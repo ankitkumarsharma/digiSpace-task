@@ -1,0 +1,51 @@
+@import '../../assets/scss/colors';
+
+.react-block{
+  &.tem-block{
+    ul{
+      li{
+        vertical-align: middle;
+        &:last-child{
+          min-width: 115px;
+        }
+      }
+    }
+    .count{
+      background-color: $blue-shades;
+      p{
+        font-size: 40px;
+        position: relative;
+        text-align: left;
+        padding-left: 13px;
+        span{
+          position: absolute;
+          font-size: 18px;
+          bottom: 0px;
+        }
+      }
+    }
+    .arrow-count{
+      p{
+        margin: 0px;
+        img{
+          width: 13px;
+        }
+        span{
+          font-size: 18px;
+          position: relative;
+          left: -5px;
+        }
+      }
+      &.up{
+        mat-icon{
+          color: $green-shades;
+        }
+      }
+      &.down{
+        mat-icon{
+          color: $orange-shades;
+        }
+      }
+    }
+  }
+}

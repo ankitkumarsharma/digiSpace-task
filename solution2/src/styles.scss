@@ -1,0 +1,187 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './assets/scss/fonts.scss';
+@import './assets/scss/colors';
+
+html, body { height: 100%; }
+body { margin: 0; }
+.react-block{
+  background-color: $block-bgc;
+  padding: 15px;
+  border-radius: 14px;
+  min-height: 168px;
+  width: 250px;
+  &.air-block{
+    ul{
+      li{
+        vertical-align: middle;
+        &:last-child{
+          min-width: 115px;
+        }
+      }
+    }
+    .count{
+      background-color: $green-shades;
+    }
+    .arrow-count{
+      mat-icon{
+        font-size: 30px;
+        position: relative;
+        left: 0px;
+        height: 28px;
+        width: 28px;
+      }
+      &.up{
+        mat-icon{
+          color: $green-shades;
+        }
+      }
+      &.down{
+        mat-icon{
+          color: $orange-shades;
+        }
+      }
+    }
+  }
+  &.tem-block{
+    ul{
+      li{
+        vertical-align: middle;
+        &:last-child{
+          min-width: 115px;
+        }
+      }
+    }
+    .count{
+      background-color: $blue-shades;
+      p{
+        font-size: 40px;
+        position: relative;
+        text-align: left;
+        padding-left: 13px;
+        span{
+          position: absolute;
+          font-size: 18px;
+          bottom: 0px;
+        }
+      }
+    }
+    .arrow-count{
+      p{
+        margin: 0px;
+        img{
+          width: 13px;
+        }
+        span{
+          font-size: 18px;
+          position: relative;
+          left: -5px;
+        }
+      }
+      &.up{
+        mat-icon{
+          color: $green-shades;
+        }
+      }
+      &.down{
+        mat-icon{
+          color: $orange-shades;
+        }
+      }
+    }
+  }
+  &.display-block{
+    float: right;
+    ul{
+      li{
+        &:first-child{
+          padding-right: 30px;
+        }
+        .audio-count{
+          p{
+            span{
+              position: absolute;
+              bottom: 20px;
+              font-size: 20px;
+            }
+          }
+        }
+        .total{
+          h3{
+            font-size: 24px;
+            opacity: 0.7;
+            font-weight: 700;
+            margin-top: -3px;
+          }
+        }
+      }
+    }
+  }
+  &.light-audio-block{
+    ul{
+      li{
+        vertical-align: middle;
+        .audio-count{
+          font-size: 66px;
+          font-weight: 700;
+          color: $blue-shades;
+          p{
+            margin: 0px;
+            position: relative;
+            bottom: -20px;
+          }
+        }
+        .green-box{
+          background: $green-shades;
+          padding: 2px 13px;
+          border-radius: 8px;
+          p{
+            margin: 0px;
+            text-transform: uppercase;
+            color: $white;
+          }
+        }
+        .total{
+          padding-top: 53px;
+          h5{
+            color: $gray-shades;
+            font-size: 14px;
+            margin: 0px 0px 4px 0px;
+          }
+        }
+      }
+    }
+  }
+  ul{
+    margin: 0px;
+  }
+  h2 {
+    font-family: Rota-Black;
+    font-size: 24px;
+    opacity: 0.7;
+    margin: 0px;
+  }
+  .count{
+    width: 85px;
+    height: 85px;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 90px;
+    margin-top: 5px;
+    color: $white;
+    p{
+      font-size: 50px;
+      font-weight: 700;
+    }
+  }
+  .arrow-count{
+    font-weight: 700;
+    font-size: 36px;
+    color: $gray-shades;
+    &.down{
+      border-top: 1px solid;
+      opacity: 0.9;
+    }
+  }
+}
+

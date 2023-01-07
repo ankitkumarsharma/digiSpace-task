@@ -1,0 +1,36 @@
+@import '../../assets/scss/colors';
+
+.react-block{
+  &.air-block{
+    ul{
+      li{
+        vertical-align: middle;
+        &:last-child{
+          min-width: 115px;
+        }
+      }
+    }
+    .count{
+      background-color: $green-shades;
+    }
+    .arrow-count{
+      mat-icon{
+        font-size: 30px;
+        position: relative;
+        left: 0px;
+        height: 28px;
+        width: 28px;
+      }
+      &.up{
+        mat-icon{
+          color: $green-shades;
+        }
+      }
+      &.down{
+        mat-icon{
+          color: $orange-shades;
+        }
+      }
+    }
+  }
+}

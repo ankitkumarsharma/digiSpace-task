@@ -1,0 +1,32 @@
+@import '../../assets/scss/colors';
+
+.container{
+  padding: 20px;
+  .main-block{
+    max-width: 800px;
+    margin: auto;
+    .view-only{
+      position: fixed;
+      left: 10px;
+      top: 10px;
+      color: $red;
+      font-weight: 700;
+      &.res{
+        top: 35px;
+      }
+    }
+    .logo{
+      text-align: center;
+      margin: 40px 0px;
+      img{
+        width: 160px;
+      }
+    }
+    .services-block{
+      padding-top: 15px;
+      .part1{
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
